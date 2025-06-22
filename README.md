@@ -13,7 +13,7 @@ Hands-on Azure project simulating a basic IT support lab environment using VMs, 
 ---
 
 ## 🧱 Architecture
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram] (screenshots/architecture.png.png)
 
 ---
 
