@@ -23,7 +23,7 @@ This project simulates a real-world IT support environment using Microsoft Azure
 
 ## 🧱 Architecture
 
-![architecture diagram](architecture.png)
+![architecture diagram] (screenshots/architecture.png.png)
 
 ---
 
