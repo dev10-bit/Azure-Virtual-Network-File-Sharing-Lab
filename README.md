@@ -62,7 +62,8 @@ Mapped the folder as a network drive (Z:) on ClientVM using UNC path:
 Used PowerShell on ServerVM to create text files in the shared folder:
 ```powershell
 Set-Content -Path "C:\SharedFiles\testnote.txt" -Value "This is a test note created from PowerShell."
-Set-Content -Path "C:\SharedFiles\githublab.txt" -Value "Arsenal FC."```
+Set-Content -Path "C:\SharedFiles\githublab.txt" -Value "Arsenal FC."
+```
 
 6. **Testing**  
 On ClientVM, verified the Z: drive was mapped and accessible.  
