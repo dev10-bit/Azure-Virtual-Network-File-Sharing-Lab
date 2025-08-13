@@ -113,11 +113,11 @@ A hands-on project that deploys two Windows VMs in a single Azure VNet, secures 
 
 18. **Create a file from the Client in the share**
     - In `Z:\content` (create folder if needed), create **ClientCreated.txt**.  
-    ![ClientVM - Create ClientCreated.txt in Z:\content](images/Screenshot_19.png)
+    ![ClientVM - Create ClientCreated.txt in Z:\content](images/Screenshot_34.png)
 
 19. **Confirm the Server sees the new client file**
     - On ServerVM: `C:\SharedFiles\content` shows **ClientCreated.txt** present.  
-    ![ServerVM - ClientCreated.txt appears in C:\SharedFiles\content](images/Screenshot_20.png)
+    ![ServerVM - ClientCreated.txt appears in C:\SharedFiles\content](images/Screenshot_35.png)
 
 ---
 
@@ -125,7 +125,7 @@ A hands-on project that deploys two Windows VMs in a single Azure VNet, secures 
 
 20. **(Before enabling ICMP) Ping failure (expected)**
     - From ServerVM → `Test-Connection 10.0.0.5` fails until ICMP allowed.  
-    ![ServerVM PowerShell - Ping to 10.0.0.5 failed before ICMP rule](images/Screenshot_36.png)
+    ![ServerVM PowerShell - Ping to 10.0.0.5 failed before ICMP rule](images/Screenshot_39.png)
 
 21. **(After enabling ICMP) Ping success**
     - From ServerVM → `Test-Connection 10.0.0.5` succeeds (~1ms).  
@@ -134,10 +134,6 @@ A hands-on project that deploys two Windows VMs in a single Azure VNet, secures 
 22. **Client → Server ping success**
     - From ClientVM → `Test-Connection 10.0.0.4` succeeds.  
     ![ClientVM PowerShell - Ping to 10.0.0.4 succeeds](images/Screenshot_42.png)
-
-> *(Optional: individual NSG blades for audit)*  
-> ![ClientVM NSG - AllowICMP and RDP inbound](images/Screenshot_34.png)  
-> ![ServerVM NSG - Inbound/Outbound rules summary](images/Screenshot_35.png)
 
 ---
 
