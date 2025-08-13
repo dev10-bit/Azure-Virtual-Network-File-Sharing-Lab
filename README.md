@@ -130,6 +130,9 @@ A hands-on project that deploys two Windows VMs in a single Azure VNet, secures 
 21. **(After enabling ICMP) Ping success**
     - From ServerVM → `Test-Connection 10.0.0.5` succeeds (~1ms).  
     ![ServerVM PowerShell - Ping to 10.0.0.5 succeeds after ICMP rule](images/Screenshot_37.png)
+ ![ServerVM PowerShell - Ping to 10.0.0.5 succeeds after ICMP rule](images/Screenshot40.png)
+
+
 
 22. **Client → Server ping success**
     - From ClientVM → `Test-Connection 10.0.0.4` succeeds.  
